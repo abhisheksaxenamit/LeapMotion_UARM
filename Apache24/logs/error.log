@@ -1,0 +1,338 @@
+[Mon Oct 16 22:54:47.977755 2017] [ssl:warn] [pid 4392:tid 544] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 22:54:48.409597 2017] [ssl:warn] [pid 4392:tid 544] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 22:54:48.409597 2017] [mpm_winnt:notice] [pid 4392:tid 544] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Mon Oct 16 22:54:48.409597 2017] [mpm_winnt:notice] [pid 4392:tid 544] AH00456: Server built: Oct  4 2017 09:00:22
+[Mon Oct 16 22:54:48.409597 2017] [core:notice] [pid 4392:tid 544] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 16 22:54:48.478259 2017] [mpm_winnt:notice] [pid 4392:tid 544] AH00418: Parent: Created child process 15104
+[Mon Oct 16 22:54:49.247584 2017] [ssl:warn] [pid 15104:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 22:54:49.925970 2017] [ssl:warn] [pid 15104:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 22:54:49.925970 2017] [mpm_winnt:notice] [pid 15104:tid 504] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 16 23:11:43.258645 2017] [mpm_winnt:crit] [pid 15104:tid 504] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Oct 16 23:11:43.258645 2017] [mpm_winnt:warn] [pid 15104:tid 528] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Oct 16 23:11:43.258645 2017] [mpm_winnt:warn] [pid 15104:tid 1160] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Oct 16 23:11:43.258645 2017] [mpm_winnt:error] [pid 15104:tid 528] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Mon Oct 16 23:11:43.258645 2017] [mpm_winnt:error] [pid 15104:tid 1160] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Mon Oct 16 23:11:43.258645 2017] [mpm_winnt:notice] [pid 15104:tid 528] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Mon Oct 16 23:11:43.258645 2017] [mpm_winnt:notice] [pid 15104:tid 1160] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Mon Oct 16 23:11:45.294656 2017] [mpm_winnt:notice] [pid 15104:tid 504] AH00364: Child: All worker threads have exited.
+[Mon Oct 16 23:12:04.199643 2017] [ssl:warn] [pid 3228:tid 608] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 23:12:04.670752 2017] [core:warn] [pid 3228:tid 608] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 16 23:12:04.686304 2017] [ssl:warn] [pid 3228:tid 608] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 23:12:04.686304 2017] [mpm_winnt:notice] [pid 3228:tid 608] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Mon Oct 16 23:12:04.686304 2017] [mpm_winnt:notice] [pid 3228:tid 608] AH00456: Server built: Oct  4 2017 09:00:22
+[Mon Oct 16 23:12:04.686304 2017] [core:notice] [pid 3228:tid 608] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 16 23:12:04.686304 2017] [mpm_winnt:notice] [pid 3228:tid 608] AH00418: Parent: Created child process 11120
+[Mon Oct 16 23:12:05.467597 2017] [ssl:warn] [pid 11120:tid 532] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 23:12:05.886664 2017] [ssl:warn] [pid 11120:tid 532] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 23:12:05.902242 2017] [mpm_winnt:notice] [pid 11120:tid 532] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 16 23:39:41.707820 2017] [mpm_winnt:notice] [pid 3228:tid 608] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 16 23:39:43.754942 2017] [mpm_winnt:notice] [pid 11120:tid 532] AH00364: Child: All worker threads have exited.
+[Mon Oct 16 23:39:43.770543 2017] [mpm_winnt:notice] [pid 3228:tid 608] AH00430: Parent: Child process 11120 exited successfully.
+[Tue Oct 17 09:39:22.514225 2017] [ssl:warn] [pid 3904:tid 596] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 09:39:23.780045 2017] [ssl:warn] [pid 3904:tid 596] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 09:39:23.780045 2017] [mpm_winnt:notice] [pid 3904:tid 596] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Tue Oct 17 09:39:23.795681 2017] [mpm_winnt:notice] [pid 3904:tid 596] AH00456: Server built: Oct  4 2017 09:00:22
+[Tue Oct 17 09:39:23.795681 2017] [core:notice] [pid 3904:tid 596] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 17 09:39:23.795681 2017] [mpm_winnt:notice] [pid 3904:tid 596] AH00418: Parent: Created child process 5772
+[Tue Oct 17 09:39:24.201962 2017] [ssl:warn] [pid 5772:tid 496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 09:39:24.358168 2017] [ssl:warn] [pid 5772:tid 496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 09:39:24.389482 2017] [mpm_winnt:notice] [pid 5772:tid 496] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 17 10:00:35.151606 2017] [mpm_winnt:crit] [pid 5772:tid 496] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:warn] [pid 5772:tid 1164] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:warn] [pid 5772:tid 1168] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:warn] [pid 5772:tid 1160] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:warn] [pid 5772:tid 524] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:error] [pid 5772:tid 1164] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:error] [pid 5772:tid 1168] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:notice] [pid 5772:tid 1164] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:error] [pid 5772:tid 524] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:error] [pid 5772:tid 1160] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:notice] [pid 5772:tid 524] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:notice] [pid 5772:tid 1160] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Oct 17 10:00:35.155606 2017] [mpm_winnt:notice] [pid 5772:tid 1168] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Oct 17 10:00:37.163730 2017] [mpm_winnt:notice] [pid 5772:tid 496] AH00364: Child: All worker threads have exited.
+[Tue Oct 17 10:01:30.736245 2017] [ssl:warn] [pid 9348:tid 468] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 10:01:30.830005 2017] [core:warn] [pid 9348:tid 468] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 17 10:01:30.845664 2017] [ssl:warn] [pid 9348:tid 468] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 10:01:30.845664 2017] [mpm_winnt:notice] [pid 9348:tid 468] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Tue Oct 17 10:01:30.845664 2017] [mpm_winnt:notice] [pid 9348:tid 468] AH00456: Server built: Oct  4 2017 09:00:22
+[Tue Oct 17 10:01:30.845664 2017] [core:notice] [pid 9348:tid 468] AH00094: Command line: 'httpd -d C:/Apache24'
+[Tue Oct 17 10:01:30.845664 2017] [mpm_winnt:notice] [pid 9348:tid 468] AH00418: Parent: Created child process 3932
+[Tue Oct 17 10:01:31.158235 2017] [ssl:warn] [pid 3932:tid 556] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 10:01:31.251971 2017] [ssl:warn] [pid 3932:tid 556] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 10:01:31.251971 2017] [mpm_winnt:notice] [pid 3932:tid 556] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 17 16:37:27.933078 2017] [ssl:warn] [pid 3812:tid 604] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 16:37:32.331047 2017] [core:warn] [pid 3812:tid 604] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 17 16:37:32.331047 2017] [ssl:warn] [pid 3812:tid 604] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 16:37:32.331047 2017] [mpm_winnt:notice] [pid 3812:tid 604] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Tue Oct 17 16:37:32.393618 2017] [mpm_winnt:notice] [pid 3812:tid 604] AH00456: Server built: Oct  4 2017 09:00:22
+[Tue Oct 17 16:37:32.393618 2017] [core:notice] [pid 3812:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 17 16:37:32.409180 2017] [mpm_winnt:notice] [pid 3812:tid 604] AH00418: Parent: Created child process 5580
+[Tue Oct 17 16:37:34.854955 2017] [ssl:warn] [pid 5580:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 16:37:35.776865 2017] [ssl:warn] [pid 5580:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 16:37:35.948755 2017] [mpm_winnt:notice] [pid 5580:tid 504] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 17 16:50:13.836220 2017] [mpm_winnt:notice] [pid 3812:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 17 16:50:15.867684 2017] [mpm_winnt:notice] [pid 5580:tid 504] AH00364: Child: All worker threads have exited.
+[Tue Oct 17 16:50:15.883311 2017] [mpm_winnt:notice] [pid 3812:tid 604] AH00430: Parent: Child process 5580 exited successfully.
+[Tue Oct 17 19:48:01.716387 2017] [ssl:warn] [pid 3768:tid 632] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 19:48:02.301921 2017] [ssl:warn] [pid 3768:tid 632] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 19:48:02.301921 2017] [mpm_winnt:notice] [pid 3768:tid 632] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Tue Oct 17 19:48:02.395622 2017] [mpm_winnt:notice] [pid 3768:tid 632] AH00456: Server built: Oct  4 2017 09:00:22
+[Tue Oct 17 19:48:02.395622 2017] [core:notice] [pid 3768:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 17 19:48:02.411248 2017] [mpm_winnt:notice] [pid 3768:tid 632] AH00418: Parent: Created child process 5888
+[Tue Oct 17 19:48:08.715888 2017] [ssl:warn] [pid 5888:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 19:48:10.341130 2017] [ssl:warn] [pid 5888:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 19:48:11.825591 2017] [mpm_winnt:notice] [pid 5888:tid 508] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 17 21:45:33.518467 2017] [mpm_winnt:notice] [pid 3768:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 17 21:45:35.612505 2017] [mpm_winnt:notice] [pid 5888:tid 508] AH00364: Child: All worker threads have exited.
+[Tue Oct 17 21:45:35.690635 2017] [mpm_winnt:notice] [pid 3768:tid 632] AH00430: Parent: Child process 5888 exited successfully.
+[Tue Oct 17 21:47:04.268214 2017] [ssl:warn] [pid 3504:tid 640] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 21:47:05.862063 2017] [ssl:warn] [pid 3504:tid 640] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 21:47:05.862063 2017] [mpm_winnt:notice] [pid 3504:tid 640] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Tue Oct 17 21:47:05.862063 2017] [mpm_winnt:notice] [pid 3504:tid 640] AH00456: Server built: Oct  4 2017 09:00:22
+[Tue Oct 17 21:47:05.862063 2017] [core:notice] [pid 3504:tid 640] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Oct 17 21:47:05.862063 2017] [mpm_winnt:notice] [pid 3504:tid 640] AH00418: Parent: Created child process 5480
+[Tue Oct 17 21:47:08.529777 2017] [ssl:warn] [pid 5480:tid 524] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 21:47:09.384738 2017] [ssl:warn] [pid 5480:tid 524] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 21:47:12.853922 2017] [mpm_winnt:notice] [pid 5480:tid 524] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 17 22:15:51.694510 2017] [mpm_winnt:crit] [pid 5480:tid 524] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:warn] [pid 5480:tid 1164] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:warn] [pid 5480:tid 1172] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:warn] [pid 5480:tid 536] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:warn] [pid 5480:tid 1168] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:error] [pid 5480:tid 1164] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:notice] [pid 5480:tid 1164] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:error] [pid 5480:tid 1172] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:notice] [pid 5480:tid 1172] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:error] [pid 5480:tid 536] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:notice] [pid 5480:tid 536] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:error] [pid 5480:tid 1168] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Oct 17 22:15:51.710104 2017] [mpm_winnt:notice] [pid 5480:tid 1168] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Oct 17 22:15:53.740511 2017] [mpm_winnt:notice] [pid 5480:tid 524] AH00364: Child: All worker threads have exited.
+[Tue Oct 17 22:15:58.824192 2017] [ssl:warn] [pid 9924:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 22:15:58.908922 2017] [core:warn] [pid 9924:tid 500] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 17 22:15:58.908922 2017] [ssl:warn] [pid 9924:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 22:15:58.924478 2017] [mpm_winnt:notice] [pid 9924:tid 500] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Tue Oct 17 22:15:58.924478 2017] [mpm_winnt:notice] [pid 9924:tid 500] AH00456: Server built: Oct  4 2017 09:00:22
+[Tue Oct 17 22:15:58.924478 2017] [core:notice] [pid 9924:tid 500] AH00094: Command line: 'httpd -d C:/Apache24'
+[Tue Oct 17 22:15:58.924478 2017] [mpm_winnt:notice] [pid 9924:tid 500] AH00418: Parent: Created child process 8960
+Apache server shutdown initiated...
+sl:warn] [pid 8960:tid 540] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 22:15:59.382209 2017] [ssl:warn] [pid 8960:tid 540] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 17 22:15:59.397755 2017] [mpm_winnt:notice] [pid 8960:tid 540] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 17 22:39:56.866392 2017] [mpm_winnt:notice] [pid 9924:tid 500] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 17 22:39:58.897217 2017] [mpm_winnt:notice] [pid 8960:tid 540] AH00364: Child: All worker threads have exited.
+[Tue Oct 17 22:39:58.934642 2017] [mpm_winnt:notice] [pid 9924:tid 500] AH00430: Parent: Child process 8960 exited successfully.
+[Wed Oct 18 10:50:45.981032 2017] [ssl:warn] [pid 3104:tid 628] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 10:50:46.935068 2017] [ssl:warn] [pid 3104:tid 628] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 10:50:46.935068 2017] [mpm_winnt:notice] [pid 3104:tid 628] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Oct 18 10:50:46.935068 2017] [mpm_winnt:notice] [pid 3104:tid 628] AH00456: Server built: Oct  4 2017 09:00:22
+[Wed Oct 18 10:50:46.935068 2017] [core:notice] [pid 3104:tid 628] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 18 10:50:46.935068 2017] [mpm_winnt:notice] [pid 3104:tid 628] AH00418: Parent: Created child process 5364
+[Wed Oct 18 10:50:49.839560 2017] [ssl:warn] [pid 5364:tid 536] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 10:50:52.913360 2017] [ssl:warn] [pid 5364:tid 536] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 10:50:54.585496 2017] [mpm_winnt:notice] [pid 5364:tid 536] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:crit] [pid 5364:tid 536] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:warn] [pid 5364:tid 568] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:warn] [pid 5364:tid 1148] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:warn] [pid 5364:tid 1160] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:warn] [pid 5364:tid 572] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:error] [pid 5364:tid 568] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:error] [pid 5364:tid 1148] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:notice] [pid 5364:tid 568] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:notice] [pid 5364:tid 1148] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:error] [pid 5364:tid 1160] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:error] [pid 5364:tid 572] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:notice] [pid 5364:tid 1160] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Wed Oct 18 10:58:04.459725 2017] [mpm_winnt:notice] [pid 5364:tid 572] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Wed Oct 18 10:58:06.475634 2017] [mpm_winnt:notice] [pid 5364:tid 536] AH00364: Child: All worker threads have exited.
+[Wed Oct 18 10:58:43.304861 2017] [ssl:warn] [pid 17248:tid 216] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 10:58:43.367448 2017] [core:warn] [pid 17248:tid 216] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 18 10:58:43.367448 2017] [ssl:warn] [pid 17248:tid 216] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 10:58:43.367448 2017] [mpm_winnt:notice] [pid 17248:tid 216] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Oct 18 10:58:43.367448 2017] [mpm_winnt:notice] [pid 17248:tid 216] AH00456: Server built: Oct  4 2017 09:00:22
+[Wed Oct 18 10:58:43.367448 2017] [core:notice] [pid 17248:tid 216] AH00094: Command line: 'httpd -d C:/Apache24'
+[Wed Oct 18 10:58:43.383030 2017] [mpm_winnt:notice] [pid 17248:tid 216] AH00418: Parent: Created child process 17372
+Apache server interrupted...
+017] [ssl:warn] [pid 17372:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 10:58:43.820586 2017] [ssl:warn] [pid 17372:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 10:58:43.836170 2017] [mpm_winnt:notice] [pid 17372:tid 504] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 18 10:59:38.494115 2017] [mpm_winnt:notice] [pid 17248:tid 216] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Wed Oct 18 10:59:40.525516 2017] [mpm_winnt:notice] [pid 17372:tid 504] AH00364: Child: All worker threads have exited.
+[Wed Oct 18 10:59:40.541140 2017] [mpm_winnt:notice] [pid 17248:tid 216] AH00430: Parent: Child process 17372 exited successfully.
+[Wed Oct 18 11:00:05.043739 2017] [ssl:warn] [pid 17824:tid 604] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:00:05.137500 2017] [ssl:warn] [pid 17824:tid 604] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:00:05.137500 2017] [mpm_winnt:notice] [pid 17824:tid 604] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Oct 18 11:00:05.137500 2017] [mpm_winnt:notice] [pid 17824:tid 604] AH00456: Server built: Oct  4 2017 09:00:22
+[Wed Oct 18 11:00:05.137500 2017] [core:notice] [pid 17824:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 18 11:00:05.137500 2017] [mpm_winnt:notice] [pid 17824:tid 604] AH00418: Parent: Created child process 12520
+[Wed Oct 18 11:00:05.778220 2017] [ssl:warn] [pid 12520:tid 548] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:00:05.856327 2017] [ssl:warn] [pid 12520:tid 548] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:00:05.871953 2017] [mpm_winnt:notice] [pid 12520:tid 548] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 18 11:41:59.112159 2017] [mpm_winnt:notice] [pid 17824:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 18 11:42:01.156870 2017] [mpm_winnt:notice] [pid 12520:tid 548] AH00364: Child: All worker threads have exited.
+[Wed Oct 18 11:42:01.453841 2017] [mpm_winnt:notice] [pid 17824:tid 604] AH00430: Parent: Child process 12520 exited successfully.
+[Wed Oct 18 11:43:05.137156 2017] [ssl:warn] [pid 3424:tid 644] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:43:05.902195 2017] [ssl:warn] [pid 3424:tid 644] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:43:05.902195 2017] [mpm_winnt:notice] [pid 3424:tid 644] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Oct 18 11:43:05.902195 2017] [mpm_winnt:notice] [pid 3424:tid 644] AH00456: Server built: Oct  4 2017 09:00:22
+[Wed Oct 18 11:43:05.902195 2017] [core:notice] [pid 3424:tid 644] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 18 11:43:05.902195 2017] [mpm_winnt:notice] [pid 3424:tid 644] AH00418: Parent: Created child process 4852
+[Wed Oct 18 11:43:08.425085 2017] [ssl:warn] [pid 4852:tid 464] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:43:11.044448 2017] [ssl:warn] [pid 4852:tid 464] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:43:11.263152 2017] [mpm_winnt:notice] [pid 4852:tid 464] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:crit] [pid 4852:tid 464] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:warn] [pid 4852:tid 1156] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:warn] [pid 4852:tid 496] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:warn] [pid 4852:tid 1152] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:error] [pid 4852:tid 496] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:error] [pid 4852:tid 1156] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:notice] [pid 4852:tid 496] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:error] [pid 4852:tid 1152] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:notice] [pid 4852:tid 1156] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Wed Oct 18 11:52:04.718305 2017] [mpm_winnt:notice] [pid 4852:tid 1152] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Wed Oct 18 11:52:06.749806 2017] [mpm_winnt:notice] [pid 4852:tid 464] AH00364: Child: All worker threads have exited.
+[Wed Oct 18 11:52:21.404074 2017] [ssl:warn] [pid 12148:tid 596] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:52:21.482239 2017] [core:warn] [pid 12148:tid 596] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 18 11:52:21.497810 2017] [ssl:warn] [pid 12148:tid 596] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:52:21.497810 2017] [mpm_winnt:notice] [pid 12148:tid 596] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Oct 18 11:52:21.497810 2017] [mpm_winnt:notice] [pid 12148:tid 596] AH00456: Server built: Oct  4 2017 09:00:22
+[Wed Oct 18 11:52:21.497810 2017] [core:notice] [pid 12148:tid 596] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 18 11:52:21.497810 2017] [mpm_winnt:notice] [pid 12148:tid 596] AH00418: Parent: Created child process 3632
+[Wed Oct 18 11:52:21.763531 2017] [ssl:warn] [pid 3632:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:52:21.810374 2017] [ssl:warn] [pid 3632:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 11:52:21.810374 2017] [mpm_winnt:notice] [pid 3632:tid 500] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 18 18:35:27.265434 2017] [mpm_winnt:notice] [pid 12148:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 18 18:35:29.343782 2017] [mpm_winnt:notice] [pid 3632:tid 500] AH00364: Child: All worker threads have exited.
+[Wed Oct 18 18:35:31.312742 2017] [mpm_winnt:notice] [pid 12148:tid 596] AH00430: Parent: Child process 3632 exited successfully.
+[Wed Oct 18 20:25:06.898041 2017] [ssl:warn] [pid 3404:tid 596] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 20:25:08.502413 2017] [ssl:warn] [pid 3404:tid 596] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 20:25:08.502413 2017] [mpm_winnt:notice] [pid 3404:tid 596] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Oct 18 20:25:08.502413 2017] [mpm_winnt:notice] [pid 3404:tid 596] AH00456: Server built: Oct  4 2017 09:00:22
+[Wed Oct 18 20:25:08.502413 2017] [core:notice] [pid 3404:tid 596] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 18 20:25:08.502413 2017] [mpm_winnt:notice] [pid 3404:tid 596] AH00418: Parent: Created child process 4124
+[Wed Oct 18 20:25:09.889315 2017] [ssl:warn] [pid 4124:tid 524] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 20:25:10.233171 2017] [ssl:warn] [pid 4124:tid 524] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 18 20:25:12.249004 2017] [mpm_winnt:notice] [pid 4124:tid 524] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 19 14:02:25.361792 2017] [mpm_winnt:crit] [pid 4124:tid 524] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Oct 19 14:02:25.426521 2017] [mpm_winnt:warn] [pid 4124:tid 544] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Oct 19 14:02:25.426521 2017] [mpm_winnt:warn] [pid 4124:tid 1192] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Oct 19 14:02:25.426521 2017] [mpm_winnt:warn] [pid 4124:tid 1128] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Oct 19 14:02:25.426521 2017] [mpm_winnt:warn] [pid 4124:tid 548] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Oct 19 14:02:27.423356 2017] [mpm_winnt:notice] [pid 4124:tid 524] AH00364: Child: All worker threads have exited.
+[Thu Oct 19 14:02:38.069329 2017] [ssl:warn] [pid 10356:tid 576] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 19 14:02:38.170023 2017] [core:warn] [pid 10356:tid 576] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 19 14:02:38.178021 2017] [ssl:warn] [pid 10356:tid 576] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 19 14:02:38.179022 2017] [mpm_winnt:notice] [pid 10356:tid 576] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Thu Oct 19 14:02:38.179022 2017] [mpm_winnt:notice] [pid 10356:tid 576] AH00456: Server built: Oct  4 2017 09:00:22
+[Thu Oct 19 14:02:38.179022 2017] [core:notice] [pid 10356:tid 576] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Oct 19 14:02:38.183033 2017] [mpm_winnt:notice] [pid 10356:tid 576] AH00418: Parent: Created child process 16004
+[Thu Oct 19 14:02:38.492064 2017] [ssl:warn] [pid 16004:tid 548] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 19 14:02:38.562345 2017] [ssl:warn] [pid 16004:tid 548] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 19 14:02:38.566382 2017] [mpm_winnt:notice] [pid 16004:tid 548] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 00:37:10.768016 2017] [mpm_winnt:notice] [pid 10356:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 20 00:37:12.815161 2017] [mpm_winnt:notice] [pid 16004:tid 548] AH00364: Child: All worker threads have exited.
+[Fri Oct 20 00:37:13.830829 2017] [mpm_winnt:notice] [pid 10356:tid 576] AH00430: Parent: Child process 16004 exited successfully.
+[Fri Oct 20 08:02:21.505252 2017] [ssl:warn] [pid 3612:tid 624] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 08:02:23.391874 2017] [ssl:warn] [pid 3612:tid 624] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 08:02:23.391874 2017] [mpm_winnt:notice] [pid 3612:tid 624] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Oct 20 08:02:23.391874 2017] [mpm_winnt:notice] [pid 3612:tid 624] AH00456: Server built: Oct  4 2017 09:00:22
+[Fri Oct 20 08:02:23.391874 2017] [core:notice] [pid 3612:tid 624] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 20 08:02:23.450660 2017] [mpm_winnt:notice] [pid 3612:tid 624] AH00418: Parent: Created child process 5476
+[Fri Oct 20 08:02:24.461805 2017] [ssl:warn] [pid 5476:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 08:02:25.102559 2017] [ssl:warn] [pid 5476:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 08:02:25.508855 2017] [mpm_winnt:notice] [pid 5476:tid 504] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 08:45:40.527564 2017] [mpm_winnt:notice] [pid 3612:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 20 08:45:42.574710 2017] [mpm_winnt:notice] [pid 5476:tid 504] AH00364: Child: All worker threads have exited.
+[Fri Oct 20 08:45:42.605899 2017] [mpm_winnt:notice] [pid 3612:tid 624] AH00430: Parent: Child process 5476 exited successfully.
+[Fri Oct 20 09:43:15.314023 2017] [ssl:warn] [pid 3512:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 09:43:16.131775 2017] [ssl:warn] [pid 3512:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 09:43:16.131775 2017] [mpm_winnt:notice] [pid 3512:tid 616] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Oct 20 09:43:16.131775 2017] [mpm_winnt:notice] [pid 3512:tid 616] AH00456: Server built: Oct  4 2017 09:00:22
+[Fri Oct 20 09:43:16.131775 2017] [core:notice] [pid 3512:tid 616] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 20 09:43:16.131775 2017] [mpm_winnt:notice] [pid 3512:tid 616] AH00418: Parent: Created child process 5000
+[Fri Oct 20 09:43:21.616710 2017] [ssl:warn] [pid 5000:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 09:43:22.815649 2017] [ssl:warn] [pid 5000:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 09:43:22.815649 2017] [mpm_winnt:notice] [pid 5000:tid 500] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:crit] [pid 5000:tid 500] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:warn] [pid 5000:tid 4] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:warn] [pid 5000:tid 1148] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:warn] [pid 5000:tid 532] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:warn] [pid 5000:tid 528] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:error] [pid 5000:tid 4] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:error] [pid 5000:tid 528] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:error] [pid 5000:tid 532] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:notice] [pid 5000:tid 4] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:error] [pid 5000:tid 1148] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:notice] [pid 5000:tid 528] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:notice] [pid 5000:tid 532] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Fri Oct 20 10:44:59.177412 2017] [mpm_winnt:notice] [pid 5000:tid 1148] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Fri Oct 20 10:45:01.179732 2017] [mpm_winnt:notice] [pid 5000:tid 500] AH00364: Child: All worker threads have exited.
+[Fri Oct 20 10:45:20.128344 2017] [ssl:warn] [pid 15108:tid 484] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 10:45:20.191986 2017] [core:warn] [pid 15108:tid 484] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 20 10:45:20.198002 2017] [ssl:warn] [pid 15108:tid 484] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 10:45:20.199005 2017] [mpm_winnt:notice] [pid 15108:tid 484] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Oct 20 10:45:20.199005 2017] [mpm_winnt:notice] [pid 15108:tid 484] AH00456: Server built: Oct  4 2017 09:00:22
+[Fri Oct 20 10:45:20.199005 2017] [core:notice] [pid 15108:tid 484] AH00094: Command line: 'httpd -d C:/Apache24'
+[Fri Oct 20 10:45:20.203422 2017] [mpm_winnt:notice] [pid 15108:tid 484] AH00418: Parent: Created child process 15136
+Apache server interrupted...
+017] [ssl:warn] [pid 15136:tid 560] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 10:45:20.539457 2017] [ssl:warn] [pid 15136:tid 560] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 10:45:20.542147 2017] [mpm_winnt:notice] [pid 15136:tid 560] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 10:45:32.618909 2017] [mpm_winnt:notice] [pid 15108:tid 484] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Fri Oct 20 10:45:34.620388 2017] [mpm_winnt:notice] [pid 15136:tid 560] AH00364: Child: All worker threads have exited.
+[Fri Oct 20 10:45:34.644797 2017] [mpm_winnt:notice] [pid 15108:tid 484] AH00430: Parent: Child process 15136 exited successfully.
+[Fri Oct 20 10:45:41.391739 2017] [ssl:warn] [pid 1072:tid 644] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 10:45:41.455785 2017] [ssl:warn] [pid 1072:tid 644] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 10:45:41.456783 2017] [mpm_winnt:notice] [pid 1072:tid 644] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Oct 20 10:45:41.456783 2017] [mpm_winnt:notice] [pid 1072:tid 644] AH00456: Server built: Oct  4 2017 09:00:22
+[Fri Oct 20 10:45:41.456783 2017] [core:notice] [pid 1072:tid 644] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 20 10:45:41.458762 2017] [mpm_winnt:notice] [pid 1072:tid 644] AH00418: Parent: Created child process 14880
+[Fri Oct 20 10:45:41.715314 2017] [ssl:warn] [pid 14880:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 10:45:41.775100 2017] [ssl:warn] [pid 14880:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 10:45:41.778107 2017] [mpm_winnt:notice] [pid 14880:tid 504] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 18:36:57.726555 2017] [mpm_winnt:notice] [pid 1072:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 20 18:36:59.773727 2017] [mpm_winnt:notice] [pid 14880:tid 504] AH00364: Child: All worker threads have exited.
+[Fri Oct 20 18:37:00.039363 2017] [mpm_winnt:notice] [pid 1072:tid 644] AH00430: Parent: Child process 14880 exited successfully.
+[Fri Oct 20 20:54:20.794886 2017] [ssl:warn] [pid 3252:tid 632] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 20:54:22.177312 2017] [ssl:warn] [pid 3252:tid 632] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 20:54:22.177312 2017] [mpm_winnt:notice] [pid 3252:tid 632] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Fri Oct 20 20:54:22.177312 2017] [mpm_winnt:notice] [pid 3252:tid 632] AH00456: Server built: Oct  4 2017 09:00:22
+[Fri Oct 20 20:54:22.177312 2017] [core:notice] [pid 3252:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 20 20:54:22.177312 2017] [mpm_winnt:notice] [pid 3252:tid 632] AH00418: Parent: Created child process 4884
+[Fri Oct 20 20:54:23.798629 2017] [ssl:warn] [pid 4884:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 20:54:25.986427 2017] [ssl:warn] [pid 4884:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 20:54:26.064561 2017] [mpm_winnt:notice] [pid 4884:tid 504] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 23:11:46.234886 2017] [mpm_winnt:notice] [pid 3252:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 20 23:11:51.422939 2017] [mpm_winnt:notice] [pid 4884:tid 504] AH00364: Child: All worker threads have exited.
+[Fri Oct 20 23:12:03.285719 2017] [mpm_winnt:notice] [pid 3252:tid 632] AH00430: Parent: Child process 4884 exited successfully.
+[Sat Oct 21 09:43:22.383418 2017] [ssl:warn] [pid 3376:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 21 09:43:22.708746 2017] [ssl:warn] [pid 3376:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 21 09:43:22.708746 2017] [mpm_winnt:notice] [pid 3376:tid 620] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Oct 21 09:43:22.708746 2017] [mpm_winnt:notice] [pid 3376:tid 620] AH00456: Server built: Oct  4 2017 09:00:22
+[Sat Oct 21 09:43:22.708746 2017] [core:notice] [pid 3376:tid 620] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 09:43:22.724373 2017] [mpm_winnt:notice] [pid 3376:tid 620] AH00418: Parent: Created child process 4748
+[Sat Oct 21 09:43:23.136523 2017] [ssl:warn] [pid 4748:tid 156] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 21 09:43:23.284470 2017] [ssl:warn] [pid 4748:tid 156] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 21 09:43:23.284470 2017] [mpm_winnt:notice] [pid 4748:tid 156] AH00354: Child: Starting 64 worker threads.
+[Sat Oct 21 17:41:32.005704 2017] [mpm_winnt:crit] [pid 4748:tid 156] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Oct 21 17:41:32.017724 2017] [mpm_winnt:warn] [pid 4748:tid 1124] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Oct 21 17:41:32.017724 2017] [mpm_winnt:warn] [pid 4748:tid 1200] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Oct 21 17:41:32.017724 2017] [mpm_winnt:warn] [pid 4748:tid 496] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Oct 21 17:41:32.017724 2017] [mpm_winnt:warn] [pid 4748:tid 1128] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Oct 21 17:41:34.055669 2017] [mpm_winnt:notice] [pid 4748:tid 156] AH00364: Child: All worker threads have exited.
+[Sat Oct 21 17:42:00.126611 2017] [ssl:warn] [pid 4668:tid 576] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 21 17:42:00.226421 2017] [core:warn] [pid 4668:tid 576] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 21 17:42:00.242044 2017] [ssl:warn] [pid 4668:tid 576] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 21 17:42:00.242044 2017] [mpm_winnt:notice] [pid 4668:tid 576] AH00455: Apache/2.4.28 (Win64) OpenSSL/1.1.0f configured -- resuming normal operations
+[Sat Oct 21 17:42:00.242044 2017] [mpm_winnt:notice] [pid 4668:tid 576] AH00456: Server built: Oct  4 2017 09:00:22
+[Sat Oct 21 17:42:00.242044 2017] [core:notice] [pid 4668:tid 576] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Oct 21 17:42:00.242044 2017] [mpm_winnt:notice] [pid 4668:tid 576] AH00418: Parent: Created child process 11124
+[Sat Oct 21 17:42:00.565087 2017] [ssl:warn] [pid 11124:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 21 17:42:00.627599 2017] [ssl:warn] [pid 11124:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 21 17:42:00.643268 2017] [mpm_winnt:notice] [pid 11124:tid 504] AH00354: Child: Starting 64 worker threads.
